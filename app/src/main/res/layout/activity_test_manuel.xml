@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test_manuel">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diabetes type(1/2)"
+                    android:textColor="#111011"/>
+                <RadioGroup
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/g1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/tp1"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:text="1"
+                        android:layout_marginRight="111dp"
+                        android:layout_height="wrap_content"
+                        android:checked="true"/>
+                    <RadioButton
+                        android:id="@+id/tp2"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:text="2"
+                        android:layout_height="match_parent" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diabetes value"
+                    android:textColor="#111011"/>
+
+                <EditText
+                    android:id="@+id/tx"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="  Entrez un valeur...                 mg/L"
+                    android:textColor="#000"
+                    android:textColorHint="#000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fast ? (oui/non)"
+                    android:textColor="#111011"/>
+                <RadioGroup
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:id="@+id/g2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/fy"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:text="Oui"
+                        android:layout_marginRight="111dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/fn"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:text="Non"
+                        android:layout_height="wrap_content"
+                        android:checked="true"/>
+                </RadioGroup>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.8"
+                android:gravity="center|top">
+
+                <Button
+                    android:id="@+id/testma"
+                    android:layout_width="236dp"
+                    android:layout_height="55dp"
+                    android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+                    android:text="Test"
+                    android:textColor="#111011" />
+
+                <Button
+                    android:id="@+id/show_grave"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:drawableLeft="@drawable/ic_show_chart_black_24dp"
+                    android:text="Show graph"
+                    android:textColor="#111011" />
+
+                <Button
+                    android:id="@+id/send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+                    android:padding="15dp"
+                    android:text="Send email to doctor"
+                    android:textColor="#111011" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

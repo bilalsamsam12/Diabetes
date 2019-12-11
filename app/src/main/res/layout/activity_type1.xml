@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".type1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/alimentation" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text=" Diabète?"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:text=" -  Le diabète \nest une maladie chronique qui ne se guérit pas, mais que l’on peut traiter et contrôler. Elle est causée par un manque ou un défaut d'utilisation d’une hormone appelée insuline. En temps normal, l’insuline permet aux
+cellules d’utiliser le sucre comme source d’énergie. Chez la personne diabétique, cette fonction est affectée, ce qui entraîne une augmentation du taux de sucre
+ dans le sang (hyperglycémie). En d’autres mots, le diabète empêche le corps d’utiliserconvenablement le sucre comme source d’énergie.
+   -Les symptômes du diabète ne se présentent pas de la même manière et avec la même
+ intensité pour tout le monde. Parfois, ils ne sont pas apparents, d’où l’importance
+ de connaître votre risque de développer la maladie et d’en parler avec votre médecin.
+
+ Les symptômes les plus fréquents sont :"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:textColor="#000"
+            android:text="• fatigue, somnolence.
+ "
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:text=" • augmentation de la fréquence et du volume des urines."
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:textColor="#000"
+            android:text="• soif intense, bouche sèche;"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:textColor="#000"
+            android:text="• faim exagérée."
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:textColor="#000"
+            android:text="• perte de poids involontaire."
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:textColor="#000"
+            android:text="• vision embrouillée."
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:textColor="#000"
+            android:text="• cicatrisation lente."
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:textColor="#000"
+            android:text="• infection des organes génitaux."
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:textColor="#000"
+            android:text="• picotements aux doigts ou aux pieds."
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Le diabète de type 1 :"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/typeo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:text="
+       Le diabète de type 1 est une maladie auto-immune qui se manifeste soit
+        dès l'enfance, à l'adolescence ou chez les jeunes adultes et représente
+        10% des cas de diabète."
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:text="
+         Les personnes diabétiques de type 1 dépendent
+        d'injections quotidiennes d'insuline pour vivre étant donné que leur
+        pancréas n’en fabrique pas. À ce jour, les recherches scientifiques
+        n’ont pas trouvé de moyen efficace pour prévenir ce type de diabète."
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Le diabète de type 2"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/typet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:text="   Le diabète de type 2 est la forme la plus fréquente de diabète (90% des cas)
+        et se manifeste généralement à l’âge adulte. Plusieurs facteurs de risques
+        prédisposent un individu à ce type de diabète. Certaines personnes peuvent
+        en être atteintes sans le savoir, étant donné l’intensité très variable des
+        symptômes .
+         Dans certains cas, des modifications aux habitudes de vie permettent
+        de prévenir le diabète de type 2 ou d'en retarder l’apparition. Le traitement du
+        diabète de type 2, tout comme la prévention, inclut une saine alimentation, de
+        l’activité physique régulière, une bonne gestion du stress et parfois une médication
+        orale et/ou des injections d’insuline.
+
+        Alimentation Adopter une alimentation saine permet d’améliorer sa santé et son bien-être global.
+        En choisissant de manger équilibré, vous diminuez vos risques de développer des
+        maladies chroniques, comme le diabète.
+
+        La modification des habitudes de vie prend du temps et doit se faire graduellement.
+        Il vous a pris plusieurs années à développer vos habitudes alimentaires telles qu’elles
+        sont aujourd’hui, il faut donc s’attribuer le temps nécessaire à leur modification.
+        Garder en tête que bien manger doit être synonyme de plaisir, variété et équilibre."
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:text="       Le diabète de type 2 est la forme la plus fréquente de diabète (90% des cas)
+        et se manifeste généralement à l’âge adulte. Plusieurs facteurs de risques
+        prédisposent un individu à ce type de diabète. Certaines personnes peuvent
+        en être atteintes sans le savoir, étant donné l’intensité très variable des
+        symptômes."
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:gravity="left"
+            android:text="
+         Dans certains cas, des modifications aux habitudes de vie permettent
+        de prévenir le diabète de type 2 ou d'en retarder l’apparition. Le traitement du
+        diabète de type 2, tout comme la prévention, inclut une saine alimentation, de
+        l’activité physique régulière, une bonne gestion du stress et parfois une médication
+        orale et/ou des injections d’insuline."
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:text="   Alimentation Adopter une alimentation saine permet d’améliorer sa santé et son bien-être global.
+        En choisissant de manger équilibré, vous diminuez vos risques de développer des
+        maladies chroniques, comme le diabète."
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:gravity="left"
+            android:text="        La modification des habitudes de vie prend du temps et doit se faire graduellement.
+        Il vous a pris plusieurs années à développer vos habitudes alimentaires telles qu’elles
+        sont aujourd’hui, il faut donc s’attribuer le temps nécessaire à leur modification.
+        Garder en tête que bien manger doit être synonyme de plaisir, variété et équilibre."
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
